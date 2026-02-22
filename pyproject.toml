@@ -1,0 +1,15 @@
+[project]
+name = "active-time"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "discord-py>=2.6.4",
+    "python-dotenv>=1.2.1",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
